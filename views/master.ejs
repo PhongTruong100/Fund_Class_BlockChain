@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="<%- domain %>">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Programming</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <script src="./scripts/web3.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/process.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            <h2>XÂY DỰNG QUỸ KHUYẾN HỌC</h2>
+        </div>
+        <div id="info-login">
+            <div id="Form">
+                <div id="login">
+
+                    <button id="btn_LoginMM"> Connect Metamask</button>
+                    <h4 id="account"></h4>
+                    
+                </div>
+
+                <div id="DW">
+                    <button id="btn_Deposit">Deposit</button>
+                    <button id="btn_Withdraw">Withdraw</button>
+                </div>
+                <div id="Amount_Token">
+                    <div id="Amount_BNB">
+                        <h4>
+                            BNB: 10
+                        </h4>
+                    </div>
+                    <div id="Amount_Xu">
+                        <h4>
+                            Xu: 1000
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Form_Content">
+            <h3>Amount:</h3>
+            <div id="aline">
+                <input id="amount" type="number" placeholder="Minimum 0.001BNB">
+                <button id="btn_SendDonate">Send Donate</button>
+            </div>
+            
+            <div id="Form_Text">
+                <h3>Content:</h3>
+                <input id="content_txt" type="text" placeholder="Nhập nội dung" maxlength="500">
+            </div>
+        </div>
+        <!-- <div id="View_Counter">
+            <h2>Số bạn đã tham gia: <span>10</span></h2>
+        </div> -->
+        
+    </div>
+</body>
+
+</html>

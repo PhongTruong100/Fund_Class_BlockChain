@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/BG.jpg);
+    height: 100%;
+    width: 100%;
+  
+}
+h2 {
+    text-align: center;
+    padding-top: 110px;
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+#container{
+    margin: auto;
+    width: 1400px;
+}
+#login{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 80%;
+    height: 50px;
+}
+#login h4 {
+    margin-right: 20px;
+}
+#Amount_Token{
+    margin-top: 10px;
+}
+#Amount_Token h4{
+    margin-left: 92%;
+    color: aliceblue;
+}
+#DW{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 92%;
+}
+#btn_Deposit{
+    margin-right: 10px;
+}
+#Form_Content{
+
+    margin-left: 25%;
+    margin-top: 40px;
+}
+#aline{
+    display: flex;
+}
+#Form_Text{
+    margin-top: 40px;
+}
+#amount{
+
+    border-radius: 10px;
+    font-size: 30px;
+    width: 420px;
+    height: 40px;
+}
+#btn_SendDonate{
+    margin-left: 10px;
+    
+    margin-top: 2px;
+    width: 100px;
+    height: 40px;
+}
+h3{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content_txt{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 800px;
+    height: 40px;
+    
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#btn_Deposit{
+    padding: 10px 10px;
+}
+#btn_Withdraw{
+    padding: 10px 10px;
+}
+#btn_LoginMM{
+    
+    padding: 10px 44px;
+}
+#login h4{
+    margin-top: 15px;
+}
